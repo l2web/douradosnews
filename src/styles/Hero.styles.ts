@@ -1,5 +1,5 @@
 export const heroStyles = {
-  container: "bg-gradient-to-r from-yellow-100 via-pink-100 to-purple-100 py-16",
+  container: "bg-gradient-to-r from-yellow-100 via-pink-100 to-purple-100 pb-16",
   contentWrapper: "container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8",
   imageContainer: "w-full lg:w-1/2",
   imageWrapper: "bg-muted rounded-lg overflow-hidden",

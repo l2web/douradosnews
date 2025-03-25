@@ -1,5 +1,3 @@
-
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TeamSection from "@/components/Team";
 import Stats from "@/components/Stats";
@@ -17,7 +15,6 @@ import CallToAction from "@/components/CallToAction";
 const Index = () => {
   return (
     <div className="min-h-screen w-full bg-white">
-      <Header />
       <Hero />
       <TeamSection />
       <Stats />
