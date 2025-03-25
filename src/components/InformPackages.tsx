@@ -71,7 +71,14 @@ const InformPackages = () => {
               <p className={informPackagesStyles.packageCard.content}>Posição de destaque na vitrine principal do site</p>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className={informPackagesStyles.packageCard.footer}>Saiba Mais</Button>
+              <a 
+                href="https://wa.me/5567991511383" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={informPackagesStyles.packageCard.footer}
+              >
+                Saiba Mais
+              </a>
             </CardFooter>
           </Card>
           
@@ -85,7 +92,14 @@ const InformPackages = () => {
               <p className={informPackagesStyles.packageCard.content}>Posição de destaque na lateral do site</p>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className={informPackagesStyles.packageCard.footer}>Saiba Mais</Button>
+              <a 
+                href="https://wa.me/5567991511383" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={informPackagesStyles.packageCard.footer}
+              >
+                Saiba Mais
+              </a>
             </CardFooter>
           </Card>
           
@@ -99,7 +113,14 @@ const InformPackages = () => {
               <p className={informPackagesStyles.packageCard.content}>Posição na lista de notícias do site</p>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className={informPackagesStyles.packageCard.footer}>Saiba Mais</Button>
+              <a 
+                href="https://wa.me/5567991511383" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={informPackagesStyles.packageCard.footer}
+              >
+                Saiba Mais
+              </a>
             </CardFooter>
           </Card>
         </div>

@@ -18,7 +18,7 @@ export const informPackagesStyles = {
   checkIcon: "h-5 w-5 text-[#F97316] mt-0.5",
   bonusIcon: "w-5 h-5 bg-[#F97316] rounded-full flex items-center justify-center text-white text-xs",
   cardFooter: "bg-[#F97316]/5",
-  primaryButton: "w-full bg-[#F97316] hover:bg-[#F97316]/90",
+  primaryButton: "w-full bg-[#F97316] hover:bg-[#F97316]/90 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200",
   sectionHeader: "bg-[#F97316] text-white p-4 rounded-lg text-center mb-8",
   sectionTitle: "text-xl font-bold",
   packagesGrid: "grid grid-cols-1 md:grid-cols-3 gap-8 mb-12",
@@ -29,7 +29,7 @@ export const informPackagesStyles = {
       subtitle: "text-sm text-gray-500"
     },
     content: "text-sm text-gray-700",
-    footer: "w-full"
+    footer: "w-full bg-[#F97316] hover:bg-[#F97316]/90 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200"
   },
   bonusContainer: "bg-orange-50 p-4 rounded-lg mb-8 text-center",
   bonusContent: "flex justify-center items-center gap-2 mb-2",

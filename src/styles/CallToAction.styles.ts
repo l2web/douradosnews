@@ -5,7 +5,7 @@ export const callToActionStyles = {
   textContainer: "text-left",
   title: "text-5xl font-bold mb-6",
   subtitle: "text-2xl mb-8",
-  ctaButton: "bg-[#F97316] hover:bg-[#F97316]/90 text-xl py-6 px-12",
+  ctaButton: "inline-block bg-[#F97316] hover:bg-[#F97316]/90 text-white font-medium py-3 px-8 rounded-md transition-colors duration-200 text-xl",
   imageContainer: "w-full",
   image: "w-full h-auto rounded-lg",
   logoContainer: "mt-12 flex justify-center",

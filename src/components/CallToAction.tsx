@@ -9,9 +9,14 @@ const CallToAction = () => {
           <div className={callToActionStyles.textContainer}>
             <h2 className={callToActionStyles.title}>O maior site do interior do MS.</h2>
             <p className={callToActionStyles.subtitle}>WWW.DOURADONEWS.COM.BR</p>
-            <Button className={callToActionStyles.ctaButton}>
+            <a 
+              href="https://wa.me/5567991511383" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={callToActionStyles.ctaButton}
+            >
               Anunciar Agora
-            </Button>
+            </a>
           </div>
           
           <div className={callToActionStyles.imageContainer}>
