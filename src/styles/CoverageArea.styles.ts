@@ -1,0 +1,20 @@
+export const coverageAreaStyles = {
+  container: "bg-gradient-to-r from-blue-500 to-blue-600 py-16 text-white",
+  contentWrapper: "container mx-auto",
+  gridContainer: "grid grid-cols-1 md:grid-cols-2 gap-12 items-center",
+  title: "text-5xl font-bold mb-8",
+  citiesGrid: "grid grid-cols-1 md:grid-cols-2 gap-4 mb-8",
+  cityCard: "p-4 rounded-lg text-center",
+  cityCardPrimary: "bg-[#F97316]",
+  cityCardSecondary: "bg-gray-400",
+  cityTitle: "text-2xl font-bold",
+  cityCardFullWidth: "col-span-2",
+  statsText: "text-xl mb-2",
+  statsBold: "text-xl font-bold mb-4",
+  description: "mb-4",
+  ctaText: "text-xl font-bold text-blue-300",
+  mapContainer: "bg-white rounded-full overflow-hidden",
+  mapWrapper: "flex items-center justify-center h-full w-full",
+  mapInner: "relative w-4/5 h-4/5",
+  mapImage: "object-contain"
+}; 
