@@ -45,7 +45,14 @@ const InformPackages = () => {
             </div>
           </CardContent>
           <CardFooter className={informPackagesStyles.cardFooter}>
-            <Button className={informPackagesStyles.primaryButton}>Contratar Pacote</Button>
+            <a 
+              href="https://wa.me/5567991511383" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={informPackagesStyles.primaryButton}
+            >
+              Contratar Pacote
+            </a>
           </CardFooter>
         </Card>
         
@@ -142,7 +149,14 @@ const InformPackages = () => {
             </div>
           </CardContent>
           <CardFooter>
-            <Button className={informPackagesStyles.primaryButton}>Contratar Cobertura</Button>
+            <a 
+              href="https://wa.me/5567991511383" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={informPackagesStyles.primaryButton}
+            >
+              Contratar Cobertura
+            </a>
           </CardFooter>
         </Card>
         

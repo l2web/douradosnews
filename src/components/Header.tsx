@@ -23,7 +23,14 @@ const Header = () => {
               www.douradonews.com.br
             </a>
           </div>
-          <Button className={headerStyles.ctaButton}>Contratar Agora</Button>
+          <a 
+            href="https://wa.me/5567991511383" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={headerStyles.ctaButton}
+          >
+            Contratar Agora
+          </a>
         </div>
       </div>
     </div>

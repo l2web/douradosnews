@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { Phone, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
+import { Phone, MapPin, Instagram, Facebook, Youtube, Twitter } from "lucide-react";
 import { contactFooterStyles } from "../styles/ContactFooter.styles";
 
 const ContactFooter = () => {
@@ -44,15 +44,19 @@ const ContactFooter = () => {
                 <img alt="Logo Dourados News" className={contactFooterStyles.logo} src="/lovable-uploads/e73ad3f8-6cba-44ba-87ec-be1d1f0b641b.jpg" />
               </a>
               
-              <a href="https://www.instagram.com/douradonews" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
+              <a href="https://www.instagram.com/jornaldouradosnews/?hl=pt-br" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
                 <Instagram className={`${contactFooterStyles.socialIcon} ${contactFooterStyles.instagramIcon}`} />
               </a>
               
-              <a href="https://www.facebook.com/douradonews" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
+              <a href="https://www.facebook.com/douradosnews" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
                 <Facebook className={`${contactFooterStyles.socialIcon} ${contactFooterStyles.facebookIcon}`} />
               </a>
               
-              <a href="https://www.youtube.com/douradonews" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
+              <a href="https://x.com/douradosnews" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
+                <Twitter className={`${contactFooterStyles.socialIcon} ${contactFooterStyles.twitterIcon}`} />
+              </a>
+              
+              <a href="https://www.youtube.com/user/NewsDourados" target="_blank" rel="noopener noreferrer" className={contactFooterStyles.socialLink}>
                 <Youtube className={`${contactFooterStyles.socialIcon} ${contactFooterStyles.youtubeIcon}`} />
               </a>
             </div>

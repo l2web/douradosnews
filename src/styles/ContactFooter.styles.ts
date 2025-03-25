@@ -19,6 +19,7 @@ export const contactFooterStyles = {
   socialIcon: "h-10 w-10",
   instagramIcon: "text-pink-500",
   facebookIcon: "text-blue-500",
+  twitterIcon: "text-blue-400",
   youtubeIcon: "text-red-500",
   imageContainer: "w-full",
   image: "w-full h-auto rounded-lg shadow-lg"

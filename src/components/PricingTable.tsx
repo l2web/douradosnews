@@ -78,7 +78,14 @@ const PricingTable = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button className={pricingTableStyles.cardFooter}>Contratar Agora</Button>
+              <a 
+                href="https://wa.me/5567991511383" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={pricingTableStyles.cardFooter}
+              >
+                Contratar Agora
+              </a>
             </CardFooter>
           </Card>
           
@@ -128,7 +135,14 @@ const PricingTable = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button className={pricingTableStyles.cardFooter}>Contratar Agora</Button>
+              <a 
+                href="https://wa.me/5567991511383" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={pricingTableStyles.cardFooter}
+              >
+                Contratar Agora
+              </a>
             </CardFooter>
           </Card>
           
@@ -163,7 +177,14 @@ const PricingTable = () => {
               </div>
             </CardContent>
             <CardFooter>
-              <Button className={pricingTableStyles.cardFooter}>Contratar Agora</Button>
+              <a 
+                href="https://wa.me/5567991511383" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={pricingTableStyles.cardFooter}
+              >
+                Contratar Agora
+              </a>
             </CardFooter>
           </Card>
         </div>
