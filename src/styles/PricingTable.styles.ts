@@ -19,7 +19,7 @@ export const pricingTableStyles = {
   price: "text-xl font-bold",
   discountBadge: "inline-block px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium mb-1",
   note: "text-xs text-gray-500 italic",
-  cardFooter: "w-full bg-[#F97316] hover:bg-[#F97316]/90",
+  cardFooter: "w-full bg-[#F97316] hover:bg-[#F97316]/90 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200",
   featuresList: "space-y-3 mb-6",
   featureItem: "flex items-start gap-2",
   checkIcon: "h-5 w-5 text-green-500 mt-0.5",
