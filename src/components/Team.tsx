@@ -39,11 +39,11 @@ const TeamSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="overflow-hidden">
-              <div className="relative h-80">
+              <div className="relative h-80 flex items-start">
                 <img 
                   src={member.image} 
                   alt={member.name} 
-                  className="object-cover h-full w-full"
+                  className="object-contain h-full w-full"
                 />
               </div>
               <CardContent className="pt-6">
